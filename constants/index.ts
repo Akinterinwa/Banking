@@ -19,6 +19,16 @@ export const sidebarLinks = [
     route: "/payment-transfer",
     label: "Transfer Funds",
   },
+  {
+    imgURL: "/icons/comment-dots-regular.svg",
+    route: "/messages",
+    label: "Messages",
+  },
+  {
+    imgURL: "/icons/question-solid.svg",
+    route: "/need-help",
+    label: "Need help ?",
+  },
 ];
 
 // good_user / good_password - Bank of America
@@ -135,3 +145,157 @@ export const transactionCategoryStyles = {
     chipBackgroundColor: "bg-inherit",
   },
 };
+
+
+export const transactionData = [
+  {
+      transactionName: "Coffee Purchase",
+      amount: 4.50,
+      type: "debit",
+      status: "success",
+      date: "Wed, April 2:00 AM",
+      channel: "store",
+      category: "food&drink",
+      sender: "N/A"
+  },
+  {
+      transactionName: "Online Shopping",
+      amount: 120.00,
+      type: "debit",
+      status: "success",
+      date: "Wed, April 3:00 PM",
+      channel: "online",
+      category: "payment",
+      sender: "N/A"
+  },
+  {
+      transactionName: "Flight Ticket",
+      amount: 300.00,
+      type: "debit",
+      status: "success",
+      date: "Wed, April 4:00 PM",
+      channel: "online",
+      category: "travel",
+      sender: "N/A"
+  },
+  {
+      transactionName: "Bank Transfer",
+      amount: 200.00,
+      type: "credit",
+      status: "success",
+      date: "Wed, April 5:00 PM",
+      channel: "Bank Transfer",
+      category: "transfer",
+      sender: "John Doe"
+  },
+  {
+      transactionName: "Dinner",
+      amount: 45.00,
+      type: "debit",
+      status: "success",
+      date: "Wed, April 7:00 PM",
+      channel: "store",
+      category: "food&drink",
+      sender: "N/A"
+  },
+  {
+    transactionName: "Coffee Purchase",
+    amount: 4.50,
+    type: "debit",
+    status: "success",
+    date: "Wed, April 2:00 AM",
+    channel: "store",
+    category: "food&drink",
+    sender: "N/A"
+},
+{
+    transactionName: "Online Shopping",
+    amount: 120.00,
+    type: "debit",
+    status: "success",
+    date: "Wed, April 3:00 PM",
+    channel: "online",
+    category: "payment",
+    sender: "N/A"
+},
+{
+    transactionName: "Flight Ticket",
+    amount: 300.00,
+    type: "debit",
+    status: "success",
+    date: "Wed, April 4:00 PM",
+    channel: "online",
+    category: "travel",
+    sender: "N/A"
+},
+{
+    transactionName: "Bank Transfer",
+    amount: 200.00,
+    type: "credit",
+    status: "success",
+    date: "Wed, April 5:00 PM",
+    channel: "Bank Transfer",
+    category: "transfer",
+    sender: "John Doe"
+},
+{
+    transactionName: "Dinner",
+    amount: 45.00,
+    type: "debit",
+    status: "success",
+    date: "Wed, April 7:00 PM",
+    channel: "store",
+    category: "food&drink",
+    sender: "N/A"
+},
+{
+  transactionName: "Coffee Purchase",
+  amount: 4.50,
+  type: "debit",
+  status: "success",
+  date: "Wed, April 2:00 AM",
+  channel: "store",
+  category: "food&drink",
+  sender: "N/A"
+},
+{
+  transactionName: "Online Shopping",
+  amount: 120.00,
+  type: "debit",
+  status: "success",
+  date: "Wed, April 3:00 PM",
+  channel: "online",
+  category: "payment",
+  sender: "N/A"
+},
+{
+  transactionName: "Flight Ticket",
+  amount: 300.00,
+  type: "debit",
+  status: "success",
+  date: "Wed, April 4:00 PM",
+  channel: "online",
+  category: "travel",
+  sender: "N/A"
+},
+{
+  transactionName: "Bank Transfer",
+  amount: 200.00,
+  type: "credit",
+  status: "success",
+  date: "Wed, April 5:00 PM",
+  channel: "Bank Transfer",
+  category: "transfer",
+  sender: "John Doe"
+},
+{
+  transactionName: "Dinner",
+  amount: 45.00,
+  type: "debit",
+  status: "success",
+  date: "Wed, April 7:00 PM",
+  channel: "store",
+  category: "food&drink",
+  sender: "N/A"
+}
+];

@@ -1,4 +1,5 @@
 import HeaderBox from '@/components/HeaderBox'
+import RecentTransactions from '@/components/RecentTransactions';
 import RightSidebar from '@/components/RightSidebar';
 import TotalBalanceBox from '@/components/TotalBalanceBox';
 import { getLoggedInUser } from '@/lib/actions/user.actions';
@@ -20,12 +21,14 @@ const Home = async () => {
 
           <TotalBalanceBox 
             accounts={[]}
-            totalBanks={1}
-            totalCurrentBalance={4250.35}
+            totalBanks={2}
+            totalCurrentBalance={35374.32}
           />
         </header>
 
-        RECENT TRANSACTIONS
+        <RecentTransactions
+          
+        />
       </div>
 
       <RightSidebar 

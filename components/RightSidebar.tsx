@@ -2,6 +2,7 @@ import Image from 'next/image'
 import Link from 'next/link'
 import React from 'react'
 import BankCard from './BankCard'
+import ItemGrid from './ProgressBar'
 
 const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
     return (
@@ -64,6 +65,13 @@ const RightSidebar = ({ user, transactions, banks }: RightSidebarProps) => {
                         )}
                     </div>
                 )}
+
+                <div className="mt-10 flex flex-1 flex-col gap-6">
+                    <h2 className="header-2">Top categories</h2>
+                    <div className="space-y-5">
+                        <ItemGrid />
+                    </div>
+                </div>
             </section>
         </aside>
     )

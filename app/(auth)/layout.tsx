@@ -1,3 +1,4 @@
+import LoginPageContent from "@/components/LoginPageContent";
 import Image from "next/image";
 
 export default function RootLayout({
@@ -6,18 +7,23 @@ export default function RootLayout({
     children: React.ReactNode;
 }>) {
     return (
-            <main className="flex min-h-screen w-full justify-between font-inter">
+        <main>
+            {/* <div className="grid w-full font-inter gap-4 lg:flex lg:justify-between"> */}
                 {children}
                 <div className="auth-asset">
-                    <div className="">
-                        <Image 
-                            src="/icons/auth-image.svg"
+                    {/* <div className="">
+                        <Image
+                            src="/icons/bank-img-1.jpg"
                             alt="auth image"
-                            width={500}
-                            height={500}
+                            width={950}
+                            height={490}
                         />
-                    </div>
+                    </div> */}
                 </div>
-            </main>
+            {/* </div> */}
+            <div className="md:grid lg:grid w-full">
+                <LoginPageContent />
+            </div>
+        </main>
     );
-}
+};

@@ -179,15 +179,6 @@ declare interface PlaidLinkProps {
   dwollaCustomerId?: string;
 }
 
-// declare type User = sdk.Models.Document & {
-//   accountId: string;
-//   email: string;
-//   name: string;
-//   items: string[];
-//   accessToken: string;
-//   image: string;
-// };
-
 declare interface AuthFormProps {
   type: "sign-in" | "sign-up";
 }
@@ -202,6 +193,7 @@ declare interface BankTabItemProps {
   account: Account;
   appwriteItemId?: string;
 }
+
 
 declare interface TotlaBalanceBoxProps {
   accounts: Account[];
