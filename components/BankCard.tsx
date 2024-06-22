@@ -14,7 +14,7 @@ interface Account {
 }
 
 interface CreditCardProps {
-    account: Account;
+    // account: Account;
     userName: string;
     showBalance?: boolean;
 }

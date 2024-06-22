@@ -43,4 +43,4 @@ const CustomInput = ({ control, name, label, placeholder }: CustomInput) => {
     )
 }
 
-export default CustomInput
+export default CustomInput;
