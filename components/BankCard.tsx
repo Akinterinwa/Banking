@@ -14,10 +14,10 @@ interface Account {
 }
 
 interface CreditCardProps {
-    // account: Account;
+    account: Account;
     userName: string;
     showBalance?: boolean;
-}
+};
 
 const BankCard: React.FC<CreditCardProps> = ({ account, userName, showBalance = true }) => {
     const lastFourDigits = account.bankCardNumber ? account.bankCardNumber.slice(-4) : "0000";
